@@ -2,7 +2,8 @@
   outline: none;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
@@ -10,24 +11,20 @@ html, body {
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-weight: 300;
 }
 
 a {
   text-decoration: none;
-  color: #008F75;
-}
-
-hr {
-  display: block;
-  width: 100%;
-  background-color: #7D97AD;
-  margin: 10px 0;
+  color: #008f75;
 }
 
 .text-center {
@@ -35,7 +32,11 @@ hr {
 }
 
 .text-color-primary {
-  color: #008F75;
+  color: #008f75;
+}
+
+header {
+  border-bottom: 1px solid #475a64;
 }
 
 .header-block {
@@ -72,16 +73,11 @@ hr {
 }
 
 .cover {
-  width: 100%;
   display: flex;
-  flex-flow: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 15px 0;
-}
-
-.cover > hr {
-  margin-top: 30px;
+  padding: 20px 15px;
+  border-bottom: 1px solid #475a64;
 }
 
 figure > img {
@@ -95,6 +91,10 @@ figcaption {
   padding-top: 10px;
 }
 
+footer {
+  border-top: 1px solid #475a64;
+}
+
 .credits {
   font-size: 0.9em;
 }
@@ -105,11 +105,11 @@ figcaption {
 }
 
 .fa-github {
-  color: #475A64;
+  color: #475a64;
 }
 
 .fa-twitter {
-  color: #5EA0DF;
+  color: #5ea0df;
 }
 
 .fa-codepen {
@@ -120,7 +120,7 @@ figcaption {
 }
 
 .fa-envelope-o {
-  color: #DF3437;
+  color: #df3437;
   font-size: 26px !important;
   position: relative;
   bottom: 3px;
