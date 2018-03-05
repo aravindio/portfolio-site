@@ -1,0 +1,151 @@
+* {
+  outline: none;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #008F75;
+}
+
+hr {
+  display: block;
+  width: 100%;
+  background-color: #7D97AD;
+  margin: 10px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-color-primary {
+  color: #008F75;
+}
+
+.header-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 65px;
+}
+
+.header-block.right {
+  flex-flow: column;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.name {
+  font-size: 1.5em;
+  margin-bottom: 0;
+  margin-top: -10px;
+}
+
+.tagline {
+  font-size: 0.8em;
+  margin-top: 0;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.cover {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 15px 0;
+}
+
+.cover > hr {
+  margin-top: 30px;
+}
+
+figure > img {
+  border: 1px solid #202020;
+  padding: 5px;
+}
+
+figcaption {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+
+.credits {
+  font-size: 0.9em;
+}
+
+.fa {
+  margin: 0 5px 20px 5px;
+  font-size: 30px !important;
+}
+
+.fa-github {
+  color: #475A64;
+}
+
+.fa-twitter {
+  color: #5EA0DF;
+}
+
+.fa-codepen {
+  color: #202020;
+  font-size: 25px !important;
+  position: relative;
+  bottom: 2px;
+}
+
+.fa-envelope-o {
+  color: #DF3437;
+  font-size: 26px !important;
+  position: relative;
+  bottom: 3px;
+}
+
+@media (min-width: 576px) {
+  .header-block {
+    height: 120px;
+  }
+
+  .header-block.left {
+    justify-content: flex-start;
+  }
+
+  .header-block.right {
+    align-items: flex-end;
+  }
+
+  .name {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .tagline {
+    font-size: 0.9em;
+  }
+}
